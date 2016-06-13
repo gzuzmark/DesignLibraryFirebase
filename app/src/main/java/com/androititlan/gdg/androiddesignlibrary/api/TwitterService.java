@@ -16,6 +16,5 @@ public interface TwitterService {
               @Query("include_entities") Boolean includeEntities,
               Callback<User> cb);
 
-    //creamos un servicio extra para obtener el perfil de usuario
 
 }

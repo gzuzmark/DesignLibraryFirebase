@@ -3,7 +3,6 @@ package com.androititlan.gdg.androiddesignlibrary.ui.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,8 +12,6 @@ import android.view.ViewGroup;
 import com.androititlan.gdg.androiddesignlibrary.R;
 import com.androititlan.gdg.androiddesignlibrary.ui.adapter.TweetAdapter;
 import com.androititlan.gdg.androiddesignlibrary.util.ConfigPreferences;
-import com.androititlan.gdg.androiddesignlibrary.util.Configure;
-import com.twitter.sdk.android.Twitter;
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;
 import com.twitter.sdk.android.core.TwitterApiClient;
@@ -31,7 +28,7 @@ import butterknife.ButterKnife;
 /**
  * Created by Jhordan on 06/07/15.
  */
-public class TweetFragment extends FragmentBase {
+public class TweetFragment extends BaseFragment {
 
 
     public static TweetFragment getInstance() {

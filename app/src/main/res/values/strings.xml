@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">AndroidDesignLibrary</string>
     <string name="hello_world">Hello world!</string>
+
+    <string name="title">Design Library</string>
+    <string name="sub_title">Android Support Library</string>
     <string name="action_settings">Settings</string>
     <string name="user_name">User name</string>
     <string name="nick_name">Nick name</string>

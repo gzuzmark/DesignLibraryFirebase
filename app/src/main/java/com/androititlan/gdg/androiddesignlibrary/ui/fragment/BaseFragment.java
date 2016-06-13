@@ -13,7 +13,7 @@ import com.androititlan.gdg.androiddesignlibrary.R;
 /**
  * Created by Jhordan on 06/07/15.
  */
-public abstract class FragmentBase extends Fragment {
+public abstract class BaseFragment extends Fragment {
 
 
     protected void settingsToolbar(View rootView, String title) {

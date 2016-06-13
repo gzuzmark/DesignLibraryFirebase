@@ -3,13 +3,11 @@ package com.androititlan.gdg.androiddesignlibrary.ui.fragment;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 
 import com.androititlan.gdg.androiddesignlibrary.R;
@@ -32,7 +30,7 @@ import butterknife.OnClick;
 /**
  * Created by Jhordan on 06/07/15.
  */
-public class ChatFragment extends FragmentBase {
+public class ChatFragment extends BaseFragment {
 
 
     public static ChatFragment getInstance() {
